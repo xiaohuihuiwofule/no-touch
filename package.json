@@ -1,0 +1,30 @@
+{
+  "name": "@czh/no-touch",
+  "version": "1.0.0",
+  "description": "One-liner to disable long-press, copy, cut on mobile web pages.",
+  "main": "dist/no-touch.min.js",
+  "module": "src/index.js",
+  "type": "module",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mobile",
+    "longpress",
+    "copy",
+    "disable"
+  ],
+  "repository": "git+https://github.com/czh/no-touch.git",
+  "author": "CZHui@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
