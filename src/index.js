@@ -1,8 +1,9 @@
 export default function noTouch() {
 
-    if(!window._noTouchInited) return;
+    if(window._noTouchInited) return;
     window._noTouchInited = true;
-
+    console.log("noTouch load sucess");
+    
     /* 1. 禁止右键菜单、选中文本、复制、剪切 */
     const stop = e =>e.preventDefault();
     ['contextmenu','selectstart','copy','cut']

@@ -1,5 +1,5 @@
 {
-  "name": "@czh/no-touch",
+  "name": "no-touch-czh",
   "version": "1.0.0",
   "description": "One-liner to disable long-press, copy, cut on mobile web pages.",
   "main": "dist/no-touch.min.js",
@@ -20,7 +20,7 @@
     "copy",
     "disable"
   ],
-  "repository": "git+https://github.com/czh/no-touch.git",
+  "repository": "git+https://github.com/xiaohuihuiwofule/no-touch.git",
   "author": "CZHui@qq.com",
   "license": "MIT",
   "devDependencies": {
